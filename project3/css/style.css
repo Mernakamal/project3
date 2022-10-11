@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: black!important;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    perspective: 700px;
+    padding: 50px;
+}
+.container-fluid{
+padding: 0 ;
+margin: 0 ;
+width: 100vw !important;
+
+
+}
+.cont{
+    background-color: black;
+    padding-left: 50px;
+    
+}
+.card-header:hover{
+    background-color: blueviolet;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* small screen */
+@media (min-width:768px){
+    .container {
+        width: 750px;
+    }
+}
+/* medium screen */
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large screen */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #777 !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+    }
+.fixedimg1{
+    background-image: url(../css/image/فا3.jpg);
+    }
+    .fixedimg2{
+    background-image: url(../css/image/th.jpg);
+    }
